@@ -48,6 +48,7 @@ It is assumed that each instance is independent of any other instance.
 4.Fixed features
 The input features are considered "fixed". Fixed means that they are treated as "given constants" and not as statistical variables. 
 This implies that they are free of measurement errors. 
+
 ----------------------------------------------------------------------------------------------------------------------
 
 Now, we will try to interpret our model by using simple code without moving to some XAI techniques or other complex methods. 
