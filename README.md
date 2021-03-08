@@ -35,18 +35,18 @@ The code of this project could be found in the shared link and in this github.
 Before we go into some explaiantion of our predicted values in this project , let talk abouts some features about what makes the interpretation of Linear Regression quiet simple: 
 
 1. Linearity
-The linear regression model forces the prediction to be a linear combination of features. Linearity leads to interpretable models. 
+- The linear regression model forces the prediction to be a linear combination of features. Linearity leads to interpretable models. 
 Linear effects are easy to quantify and describe. They are additive, so it is easy to separate the effects. 
 
 2. Normality
-It is assumed that the target outcome given the features follows a normal distribution. If this assumption is violated, 
+- It is assumed that the target outcome given the features follows a normal distribution. If this assumption is violated, 
 the estimated confidence intervals of the feature weights are invalid.
 
 3. Independence
-It is assumed that each instance is independent of any other instance.
+- It is assumed that each instance is independent of any other instance.
 
 4.Fixed features
-The input features are considered "fixed". Fixed means that they are treated as "given constants" and not as statistical variables. 
+- The input features are considered "fixed". Fixed means that they are treated as "given constants" and not as statistical variables. 
 This implies that they are free of measurement errors. 
 
 ----------------------------------------------------------------------------------------------------------------------
@@ -71,7 +71,7 @@ Let's show some of the output that we got from the code:
     - The result should be approximately 9.91065648.
    
 Now , putting everything togather and to able to answer one question: 
-**How these results come out and to interpret them?**
+**How these results come out and How to interpret them?**
 
 Simply, we can use the following code 
 
@@ -82,8 +82,7 @@ Simply, we can use the following code
  the change in the score is about 9.91%. Or in simpler words, if a student studies one hour more than they previously studied for an exam,
  they can expect to achieve an increase of 9.91% in the score achieved by the student previously.
  
- So, in Linear Regression Models, the coeffiencts can provide could meaning why and how such predicted value is came out. This is still a very simple way to interpret and alot of 
- techniques and methods could be used to interpret our model.
+ So, in Linear Regression Models, the coeffiencts can provide could meaning why and how such predicted value is came out. This is still a very simple way to interpret and alot  of techniques and methods could be used to interpret our model.
  
  we can also depends on other values to interpret our model. we could also do the following: 
   - We can plot the coefficient’s values and standard errors. Start by computing an error term equal to the difference between the parameter’s value and the lower confidence 
